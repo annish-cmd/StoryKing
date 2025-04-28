@@ -1,4 +1,4 @@
-# StoryKing App - Internship Project
+# StoryKing App
 
 ## API Keys Required
 

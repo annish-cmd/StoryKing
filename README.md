@@ -1,4 +1,4 @@
-# StoryKing App
+# StoryKing Flutter App with DeepSeek & ElevenLabs
 
 
 ![image](https://github.com/user-attachments/assets/049aacdd-0657-47b0-a5a4-7e66a078bb82)

@@ -1,5 +1,38 @@
 # StoryKing App
 
+Splash Screen, Login and Sign-Up Page
+![image](https://github.com/user-attachments/assets/049aacdd-0657-47b0-a5a4-7e66a078bb82)
+
+Home, Profile & Drawer Page
+![image](https://github.com/user-attachments/assets/b07a1546-b9cd-49bf-ae5e-babef83161de)
+
+
+About & Setting Page
+![image](https://github.com/user-attachments/assets/0dcbfa35-b1d6-4b60-bd44-8edd6cad6114)
+
+
+Help & Support, Contact US and Favorite Page
+![image](https://github.com/user-attachments/assets/b0ee2ec8-f53b-4c29-bb66-39d8630116b0)
+
+
+Home Page and Story Generation
+![image](https://github.com/user-attachments/assets/c39d0b98-d8c2-4715-bf3d-18e0544e793a)
+
+
+![image](https://github.com/user-attachments/assets/1af10c06-d553-4d51-aac1-7fcc86b05f34)
+
+
+![image](https://github.com/user-attachments/assets/cb226b7b-71f0-4951-8c45-37dc02bc8748)
+
+
+![image](https://github.com/user-attachments/assets/cadf8600-ef07-4c03-af60-ec5a2310c4a1)
+
+
+
+
+
+
+
 ## API Keys Required
 
 This application requires API keys from two services:

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278549662505",
+    "project_id": "story-king-94d54",
+    "storage_bucket": "story-king-94d54.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278549662505:android:e4fceb17f83e2502b3c538",
+        "android_client_info": {
+          "package_name": "com.example.android_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCItrwHXq_YNrq_b4rvnWF6W2OtUiWNNwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

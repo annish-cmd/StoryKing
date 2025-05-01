@@ -1,0 +1,1 @@
+C:\Projects\intern_project\android_app\build\app\intermediates\cxx\Debug\606n1x3o\obj\x86_64

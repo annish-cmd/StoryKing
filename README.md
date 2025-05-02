@@ -1,29 +1,15 @@
 # StoryKing Flutter App with DeepSeek & ElevenLabs
 
-![image](https://github.com/user-attachments/assets/049aacdd-0657-47b0-a5a4-7e66a078bb82)
-
-![image](https://github.com/user-attachments/assets/b07a1546-b9cd-49bf-ae5e-babef83161de)
-
-![image](https://github.com/user-attachments/assets/0dcbfa35-b1d6-4b60-bd44-8edd6cad6114)
-
-![image](https://github.com/user-attachments/assets/c39d0b98-d8c2-4715-bf3d-18e0544e793a)
-
-![image](https://github.com/user-attachments/assets/1af10c06-d553-4d51-aac1-7fcc86b05f34)
-
-![image](https://github.com/user-attachments/assets/cb226b7b-71f0-4951-8c45-37dc02bc8748)
-
-![image](https://github.com/user-attachments/assets/cadf8600-ef07-4c03-af60-ec5a2310c4a1)
-
-next
 
 ![InCollage_20250502_090911238](https://github.com/user-attachments/assets/7c3db384-f681-41d3-8ecf-fd6e03ee998a)
 
 ![InCollage_20250502_091009089](https://github.com/user-attachments/assets/92915e44-92cd-4f5a-9b9e-0b2175e174e2)
 
-
 ![InCollage_20250502_091124350](https://github.com/user-attachments/assets/55299e3e-ecc3-4401-9349-c81b812b80d6)
 
 ![InCollage_20250502_091218363](https://github.com/user-attachments/assets/0f1b0763-d0cc-4923-838c-dc592ba87c54)
+
+![InCollage_20250502_091756088](https://github.com/user-attachments/assets/539f80bb-a577-454c-9b96-b272eb78ba61)
 
 ## API Keys Required
 

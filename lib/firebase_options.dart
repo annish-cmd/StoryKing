@@ -3,17 +3,9 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
-///
-/// Example:
-/// ```dart
-/// import 'firebase_options.dart';
-/// // ...
-/// await Firebase.initializeApp(
-///   options: DefaultFirebaseOptions.currentPlatform,
-/// );
-/// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -40,47 +32,52 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA6XO9iXvwcU2vNktbLjXScQ_QDfUy9Xac',
-    appId: '1:278549662505:web:9b3c537adb998684b3c538',
-    messagingSenderId: '278549662505',
-    projectId: 'story-king-94d54',
-    authDomain: 'story-king-94d54.firebaseapp.com',
-    storageBucket: 'story-king-94d54.firebasestorage.app',
-  );
+  static FirebaseOptions get web => FirebaseOptions(
+        apiKey: dotenv.env['FIREBASE_WEB_API_KEY'] ??
+            '', // Add your Web API key in .env file
+        appId: '1:278549662505:web:9b3c537adb998684b3c538',
+        messagingSenderId: '278549662505',
+        projectId: 'story-king-94d54',
+        authDomain: 'story-king-94d54.firebaseapp.com',
+        storageBucket: 'story-king-94d54.firebasestorage.app',
+      );
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCItrwHXq_YNrq_b4rvnWF6W2OtUiWNNwE',
-    appId: '1:278549662505:android:e4fceb17f83e2502b3c538',
-    messagingSenderId: '278549662505',
-    projectId: 'story-king-94d54',
-    storageBucket: 'story-king-94d54.firebasestorage.app',
-  );
+  static FirebaseOptions get android => FirebaseOptions(
+        apiKey: dotenv.env['FIREBASE_ANDROID_API_KEY'] ??
+            '', // Add your Android API key in .env file
+        appId: '1:278549662505:android:e4fceb17f83e2502b3c538',
+        messagingSenderId: '278549662505',
+        projectId: 'story-king-94d54',
+        storageBucket: 'story-king-94d54.firebasestorage.app',
+      );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDSf5T9qqIXzp8pigHxuIJj6KOh7ilh_RI',
-    appId: '1:278549662505:ios:2409db82417a3b8ab3c538',
-    messagingSenderId: '278549662505',
-    projectId: 'story-king-94d54',
-    storageBucket: 'story-king-94d54.firebasestorage.app',
-    iosBundleId: 'com.example.androidApp',
-  );
+  static FirebaseOptions get ios => FirebaseOptions(
+        apiKey: dotenv.env['FIREBASE_IOS_API_KEY'] ??
+            '', // Add your iOS API key in .env file
+        appId: '1:278549662505:ios:2409db82417a3b8ab3c538',
+        messagingSenderId: '278549662505',
+        projectId: 'story-king-94d54',
+        storageBucket: 'story-king-94d54.firebasestorage.app',
+        iosBundleId: 'com.example.androidApp',
+      );
 
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDSf5T9qqIXzp8pigHxuIJj6KOh7ilh_RI',
-    appId: '1:278549662505:ios:2409db82417a3b8ab3c538',
-    messagingSenderId: '278549662505',
-    projectId: 'story-king-94d54',
-    storageBucket: 'story-king-94d54.firebasestorage.app',
-    iosBundleId: 'com.example.androidApp',
-  );
+  static FirebaseOptions get macos => FirebaseOptions(
+        apiKey: dotenv.env['FIREBASE_IOS_API_KEY'] ??
+            '', // Add your macOS API key in .env file
+        appId: '1:278549662505:ios:2409db82417a3b8ab3c538',
+        messagingSenderId: '278549662505',
+        projectId: 'story-king-94d54',
+        storageBucket: 'story-king-94d54.firebasestorage.app',
+        iosBundleId: 'com.example.androidApp',
+      );
 
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyA6XO9iXvwcU2vNktbLjXScQ_QDfUy9Xac',
-    appId: '1:278549662505:web:b51539c48262e99bb3c538',
-    messagingSenderId: '278549662505',
-    projectId: 'story-king-94d54',
-    authDomain: 'story-king-94d54.firebaseapp.com',
-    storageBucket: 'story-king-94d54.firebasestorage.app',
-  );
+  static FirebaseOptions get windows => FirebaseOptions(
+        apiKey: dotenv.env['FIREBASE_WINDOWS_API_KEY'] ??
+            '', // Add your Windows API key in .env file
+        appId: '1:278549662505:web:b51539c48262e99bb3c538',
+        messagingSenderId: '278549662505',
+        projectId: 'story-king-94d54',
+        authDomain: 'story-king-94d54.firebaseapp.com',
+        storageBucket: 'story-king-94d54.firebasestorage.app',
+      );
 }

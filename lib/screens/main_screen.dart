@@ -30,6 +30,7 @@ import '../widgets/custom_drawer.dart';
 import '../services/auth/auth_service.dart';
 import '../services/tts_service.dart';
 import 'package:android_app/services/storage_service.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class MainScreen extends StatefulWidget {
   // final dynamic user;
@@ -63,13 +64,13 @@ class _MainScreenState extends State<MainScreen> {
   @override
   void initState() {
     super.initState();
-    // Initialize TTS service with API key Elevenlabs
+    // Initialize TTS service with API key from environment variables
     _ttsService = TTSService(
-      apiKey: 'sk_25ec15643d751d868237a461e151b64b635d40e0971d8e41',
+      apiKey: dotenv.env['ELEVENLABS_API_KEY'] ??
+          '', // Use environment variable for ElevenLabs API key
     );
 
     _loadUser();
-
     _storageService = StorageService.instance;
   }
 

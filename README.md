@@ -73,6 +73,37 @@ If you encounter Gradle-related errors, ensure you're using JDK 17 by:
 - Setting JAVA_HOME environment variable to point to JDK 17
 - Checking Android Studio/IntelliJ settings to use JDK 17 for the project
 
+## Environment Setup
+
+1. Copy `.env.template` to a new file named `.env`
+2. Fill in your API keys in the `.env` file:
+
+### Firebase Configuration
+
+Get your Firebase API keys from your Firebase Console:
+
+1. Go to Project Settings
+2. Under "Your apps", find the configuration for each platform
+3. Copy the API keys for each platform into your `.env` file
+
+### OpenRouter (DeepSeek) API Key
+
+1. Visit [OpenRouter](https://openrouter.ai/)
+2. Create an account
+3. Navigate to your account settings
+4. Generate an API key
+5. Add it to your `.env` file as `OPENROUTER_API_KEY`
+
+### ElevenLabs API Key
+
+1. Visit [ElevenLabs](https://elevenlabs.io/)
+2. Create an account
+3. Go to your profile settings → API Key
+4. Generate a new API key
+5. Add it to your `.env` file as `ELEVENLABS_API_KEY`
+
+⚠️ IMPORTANT: Never commit your `.env` file to version control. It has been added to `.gitignore` to prevent accidental commits.
+
 ## Internship Work Overview
 
 During my internship, I focused on the following areas:

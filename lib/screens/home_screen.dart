@@ -25,6 +25,7 @@
 import 'package:android_app/services/storage/firebase_storage_repository.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import '../services/story_service.dart';
 import '../services/storage_service.dart';
 import '../services/tts_service.dart';
@@ -79,8 +80,8 @@ class _HomeScreenState extends State<HomeScreen>
       ),
     );
     _storyService = StoryService(
-      apiKey:
-          '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', // Story Service API Key deepseek
+      apiKey: dotenv.env['OPENROUTER_API_KEY'] ??
+          '', // Use environment variable for OpenRouter API key
     );
     _ttsService = widget.ttsService; // Use the provided TTSService
     _loadSavedStories();

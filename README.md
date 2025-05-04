@@ -1,5 +1,42 @@
 # StoryKing Flutter App with DeepSeek & ElevenLabs
 
+## 🎮 Quick Start Guide
+
+Hello! Want to run this cool story app? Follow these simple steps:
+
+### Step 1: Get the Code
+
+1. Open Terminal/Command Prompt
+2. Type: `git clone https://github.com/annish-cmd/StoryKing.git`
+3. Go into the folder: `cd StoryKing`
+
+### Step 2: Set Up Your Keys
+
+1. Find the file named `.env.template`
+2. Make a copy and name it `.env`
+3. Get your special keys:
+   - Go to [OpenRouter](https://openrouter.ai/) to get DeepSeek key
+   - Go to [ElevenLabs](https://elevenlabs.io/) to get voice key
+   - Get Firebase keys from your Firebase Console
+4. Put these keys in your `.env` file
+
+### Step 3: Install & Run
+
+1. Make sure you have Flutter installed
+2. Open a terminal and type: `flutter pub get`
+3. Connect your phone or start an emulator
+4. Type: `flutter run`
+5. That's it! The app should start 🎉
+
+### Step 4: Have Fun!
+
+- Type any story idea
+- Click 'Generate' to create your story
+- Use the play button to hear it
+- Save your favorites!
+
+Need help? Feel free to ask! 😊
+
 ![image](https://github.com/user-attachments/assets/049aacdd-0657-47b0-a5a4-7e66a078bb82)
 
 ![image](https://github.com/user-attachments/assets/b07a1546-b9cd-49bf-ae5e-babef83161de)
@@ -101,8 +138,6 @@ Get your Firebase API keys from your Firebase Console:
 3. Go to your profile settings → API Key
 4. Generate a new API key
 5. Add it to your `.env` file as `ELEVENLABS_API_KEY`
-
-⚠️ IMPORTANT: Never commit your `.env` file to version control. It has been added to `.gitignore` to prevent accidental commits.
 
 ## Internship Work Overview
 

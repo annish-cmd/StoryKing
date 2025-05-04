@@ -1,38 +1,5 @@
 # StoryKing Flutter App with DeepSeek & ElevenLabs
 
-## 🎮 Quick Start Guide
-
-Hello! Want to run this cool story app? Follow these simple steps:
-
-### Step 1: Get the Code
-1. Open Terminal/Command Prompt
-2. Type: `git clone https://github.com/annish-cmd/StoryKing.git`
-3. Go into the folder: `cd StoryKing`
-
-### Step 2: Set Up Your Keys
-1. Find the file named `.env.template`
-2. Make a copy and name it `.env`
-3. Get your special keys:
-   - Go to [OpenRouter](https://openrouter.ai/) to get DeepSeek key
-   - Go to [ElevenLabs](https://elevenlabs.io/) to get voice key
-   - Get Firebase keys from your Firebase Console
-4. Put these keys in your `.env` file
-
-### Step 3: Install & Run
-1. Make sure you have Flutter installed
-2. Open a terminal and type: `flutter pub get`
-3. Connect your phone or start an emulator
-4. Type: `flutter run`
-5. That's it! The app should start 🎉
-
-### Step 4: Have Fun!
-- Type any story idea
-- Click 'Generate' to create your story
-- Use the play button to hear it
-- Save your favorites!
-
-Need help? Feel free to ask! 😊
-
 ![InCollage_20250502_090911238](https://github.com/user-attachments/assets/7c3db384-f681-41d3-8ecf-fd6e03ee998a)
 
 ![InCollage_20250502_091009089](https://github.com/user-attachments/assets/92915e44-92cd-4f5a-9b9e-0b2175e174e2)

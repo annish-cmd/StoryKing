@@ -5,13 +5,11 @@
 Hello! Want to run this cool story app? Follow these simple steps:
 
 ### Step 1: Get the Code
-
 1. Open Terminal/Command Prompt
 2. Type: `git clone https://github.com/annish-cmd/StoryKing.git`
 3. Go into the folder: `cd StoryKing`
 
 ### Step 2: Set Up Your Keys
-
 1. Find the file named `.env.template`
 2. Make a copy and name it `.env`
 3. Get your special keys:
@@ -21,7 +19,6 @@ Hello! Want to run this cool story app? Follow these simple steps:
 4. Put these keys in your `.env` file
 
 ### Step 3: Install & Run
-
 1. Make sure you have Flutter installed
 2. Open a terminal and type: `flutter pub get`
 3. Connect your phone or start an emulator
@@ -29,7 +26,6 @@ Hello! Want to run this cool story app? Follow these simple steps:
 5. That's it! The app should start 🎉
 
 ### Step 4: Have Fun!
-
 - Type any story idea
 - Click 'Generate' to create your story
 - Use the play button to hear it
@@ -37,19 +33,15 @@ Hello! Want to run this cool story app? Follow these simple steps:
 
 Need help? Feel free to ask! 😊
 
-![image](https://github.com/user-attachments/assets/049aacdd-0657-47b0-a5a4-7e66a078bb82)
+![InCollage_20250502_090911238](https://github.com/user-attachments/assets/7c3db384-f681-41d3-8ecf-fd6e03ee998a)
 
-![image](https://github.com/user-attachments/assets/b07a1546-b9cd-49bf-ae5e-babef83161de)
+![InCollage_20250502_091009089](https://github.com/user-attachments/assets/92915e44-92cd-4f5a-9b9e-0b2175e174e2)
 
-![image](https://github.com/user-attachments/assets/0dcbfa35-b1d6-4b60-bd44-8edd6cad6114)
+![InCollage_20250502_091124350](https://github.com/user-attachments/assets/55299e3e-ecc3-4401-9349-c81b812b80d6)
 
-![image](https://github.com/user-attachments/assets/c39d0b98-d8c2-4715-bf3d-18e0544e793a)
+![InCollage_20250502_091218363](https://github.com/user-attachments/assets/0f1b0763-d0cc-4923-838c-dc592ba87c54)
 
-![image](https://github.com/user-attachments/assets/1af10c06-d553-4d51-aac1-7fcc86b05f34)
-
-![image](https://github.com/user-attachments/assets/cb226b7b-71f0-4951-8c45-37dc02bc8748)
-
-![image](https://github.com/user-attachments/assets/cadf8600-ef07-4c03-af60-ec5a2310c4a1)
+![InCollage_20250502_091756088](https://github.com/user-attachments/assets/539f80bb-a577-454c-9b96-b272eb78ba61)
 
 ## API Keys Required
 

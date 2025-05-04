@@ -99,7 +99,7 @@ Get your Firebase API keys from your Firebase Console:
 4. Generate a new API key
 5. Add it to your `.env` file as `ELEVENLABS_API_KEY`
 
-⚠️ IMPORTANT: Never commit your `.env` file to version control. It has been added to `.gitignore` to prevent accidental commits.
+
 
 ## Internship Work Overview
 
